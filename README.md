@@ -20,7 +20,7 @@ share their script.
 # Code Repository:
 
 - Repository Platform: GitHub
-- Repository Link: https://github.com/DipendraSingh708/Shell-Script-for-User-Management-and-Backup-in-Linux.git
+- Repository Link: https://github.com/DipendraSingh708/Shell-Script-for-User-Management-and-Backup-in-Linux
 - Access Instructions: Clone the repository to your local machine using Git. Instructions on cloning a repository can be found on GitHub's help pages.
 
 # Requirements:
