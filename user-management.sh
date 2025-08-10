@@ -7,8 +7,9 @@ chmod +x group-add.sh
 chmod +x group-del.sh
 chmod +x group-mod.sh
 chmod +x monitor.sh
-echo -e "Freature avaliable right now: \n1. User\n2. Group\n3. Monitoring"
-read -p "Enter choice [1-3]: " choice
+chmod +x backup.sh
+echo -e "Freature avaliable right now: \n1. User\n2. Group\n3. Monitoring\n4. Backup"
+read -p "Enter choice [1-4]: " choice
 
 case "$choice" in
         1)
@@ -34,5 +35,6 @@ case "$choice" in
             esac
             ;;
         3) ./monitor.sh ;;
+        4) sudo ./backup.sh ;;
         *) echo "Invalid Input" ;;
 esac
